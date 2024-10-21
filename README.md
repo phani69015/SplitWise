@@ -75,18 +75,18 @@ This project is a backend service for a Daily Expenses Sharing Application, buil
    python manage.py migrate
 ## 📋 API Endpoints
 
-### Key API Endpoints for the Application:
+### Key API Endpoints for the Application( POSTMAN ):
 
 #### User Management
-- **POST /create-user/** - Register a new user.
-- **POST /retreive-user/** - Log in a user.
+- **POST expenses/create-user/** - Register a new user.
+- **POST expenses/retreive-user/** - Log in a user.
 
 #### Expense Management
-- **POST /add-expense/** - Add an expense with a specified split type.
-- **GET /user-expenses/<user_id>/** - Retrieve expenses for a specific user.
+- **POST expenses/add-expense/** - Add an expense with a specified split type.
+- **GET expenses/user-expenses/<user_id>/** - Retrieve expenses for a specific user.
 
 #### Balance Sheet
-- **GET /download-balance-sheet/<user_id>/** - Download a CSV of the user's balance sheet.
+- **GET expenses/download-balance-sheet/<user_id>/** - Download a CSV of the user's balance sheet.
 
 ## 🔍 Testing
 
