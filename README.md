@@ -78,8 +78,8 @@ This project is a backend service for a Daily Expenses Sharing Application, buil
 ### Key API Endpoints for the Application:
 
 #### User Management
-- **POST /register/** - Register a new user.
-- **POST /login/** - Log in a user.
+- **POST /create-user/** - Register a new user.
+- **POST /retreive-user/** - Log in a user.
 
 #### Expense Management
 - **POST /add-expense/** - Add an expense with a specified split type.
