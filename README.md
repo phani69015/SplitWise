@@ -73,5 +73,24 @@ This project is a backend service for a Daily Expenses Sharing Application, buil
    ```bash
    python manage.py makemigrations
    python manage.py migrate
-   
+## 📋 API Endpoints
 
+### Key API Endpoints for the Application:
+
+#### User Management
+- **POST /register/** - Register a new user.
+- **POST /login/** - Log in a user.
+
+#### Expense Management
+- **POST /add-expense/** - Add an expense with a specified split type.
+- **GET /user-expenses/<user_id>/** - Retrieve expenses for a specific user.
+
+#### Balance Sheet
+- **GET /download-balance-sheet/<user_id>/** - Download a CSV of the user's balance sheet.
+
+## 🔍 Testing
+
+Run the automated tests to verify the functionality:
+
+```bash
+python manage.py test
