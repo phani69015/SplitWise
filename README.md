@@ -1,16 +1,16 @@
-# 💸 Daily Expenses Sharing Application (Splitwise Backend) 💸
+# Daily Expenses Sharing Application (Splitwise Backend)
 
 ### Developed as part of an assignment for the Backend Intern position at Convin AI.
 
 ---
 
-## 📑 Overview
+## Overview
 
 This project is a backend service for a Daily Expenses Sharing Application, built as part of a technical assignment for the **Backend Intern position at Convin AI**. The service allows users to add expenses, split them among participants, and generate downloadable balance sheets. It's built using Django and follows modular, scalable practices to ensure smooth functionality and easy integration.
 
 ---
 
-## 🛠️ Features
+## Features
 
 - **User Registration & Authentication**: Manage user profiles and authentication securely.
 - **Expense Management**: Add expenses and split them using:
