@@ -1,0 +1,6 @@
+myenv
+.env
+.sqlite3
+db.sqlite3
+__pycache__
+mmigrations
