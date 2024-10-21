@@ -47,8 +47,8 @@ This project is a backend service for a Daily Expenses Sharing Application, buil
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/splitwise-backend.git
-   cd splitwise-backend
+   git clone https://github.com/phani69015/SplitWise.git
+   cd SplitWise
 2.  **Create a virtual environment:**
     ```bash
     python -m venv myenv
