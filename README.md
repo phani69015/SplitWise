@@ -73,7 +73,5 @@ This project is a backend service for a Daily Expenses Sharing Application, buil
    ```bash
    python manage.py makemigrations
    python manage.py migrate
-
-   
    
 
