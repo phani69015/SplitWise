@@ -43,9 +43,37 @@ This project is a backend service for a Daily Expenses Sharing Application, buil
 - **Python 3.x** installed.
 - **Git** for version control.
 
-### Installation
+### Installation and setup
 
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/yourusername/splitwise-backend.git
    cd splitwise-backend
+2.  **Create a virtual environment:**
+    ```bash
+    python -m venv myenv
+    source myenv/bin/activate  # For Windows: myenv\Scripts\activate
+3. **Install dependencies:**
+   ```bash
+   pip install -r req.txt
+4. **Database setup (optional)**
+    Configure the database settings in settings.py if wanted to use Postgre or Mysql else dbsqlite3 will be used :
+   ```bash
+   DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'yourdbname',
+        'USER': 'yourdbuser',
+        'PASSWORD': 'yourdbpassword',
+        'HOST': 'localhost',
+        'PORT': '5432',
+    }
+    }
+5. **Apply migrations:**
+   ```bash
+   python manage.py makemigrations
+   python manage.py migrate
+
+   
+   
+
