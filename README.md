@@ -1,6 +1,5 @@
 # Daily Expenses Sharing Application (Splitwise Backend)
 
-### Developed as part of an assignment for the Backend Intern position at Convin AI.
 
 ---
 
